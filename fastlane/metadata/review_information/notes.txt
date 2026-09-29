@@ -1,0 +1,17 @@
+The app requests no permissions. No permission prompt appears, and there is no usage-description string.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Conticinium is a short evening rite on one canvas. A person keeps four pages in order — Reflect, Breathe, Ambient, then Rest — and Rest files a sealed night on this device. It is for people who want an ordered wind-down, not a sleep log and not a free-form breath hold.
+
+No credentials or demo account are needed. A cold launch shows a blank system launch screen with no title, then the introduction if it has not been finished. The introduction is three full-screen pages and cannot be dragged away. Skip is on every page. Tap Next on An evening in order (Four pages, one after another. Reflect, breathe, ambient, then rest. Page 1 of 3), then Next on Keep, then turn (Keep the page you are on. Turn moves only after that mark is there. Page 2 of 3), then Continue on Rest seals the night (When the three pages hold a mark, rest files the night on this device. Page 3 of 3). Skip also ends the introduction on any page and puts page lengths back to 90, 120, and 90 seconds with Haptics on. After the introduction, Tonight is the home screen. On a new install it opens as Build tonight's rite with Four pages, in order. You can skip a page if you must. Tap Begin with Reflect. During the beat the cue word cycles Inhale, Hold, Exhale, Settle. End early keeps the page without waiting out the length. After the first keep, the four pages replace the empty night. On Reflect, Breathe, and Ambient, tap Keep this page or End early, then Turn forward. A forward swipe or Turn forward moves only after the current page is kept. Rest stays dimmed until Reflect, Breathe, and Ambient each show Kept. Tap Rest to seal tonight. After seal, the notice Tonight is sealed. appears, and Open history opens Sealed nights. The closed-book control (VoiceOver: History) opens Sealed nights. The gear control (VoiceOver: Settings) opens Settings, with Page lengths, Feel with Haptics, and This device with Show the introduction, Reset all nights, and Contact. If the introduction is already finished and Breathe is the current page, tap Keep this page, then Turn forward through Ambient, then Rest.
+
+Nights, flutter marks, page lengths, and the haptics setting stay on this device. Contact under This device in Settings opens the support page.
+
+Behaviour does not differ by region. Copy is English only. Dates and numbers follow the device locale.
+
+No licence or regulated-industry paperwork applies. The app does not show medical, diagnostic, or product-health information.
+
+The app is a personal log only and gives no recommendations. Sealed nights counts rest marks and flutter marks, not hours slept. The Breathe page and the empty-night beat show timed Inhale, Hold, Exhale, and Settle words as part of the rite. There are no citations.
+
+The app does not scan barcodes or QR codes.

@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C435EC657C56448224D0EC /* InkWashScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B60DDC2388A069F548D994 /* InkWashScene.swift */; };
+		08195471014FB6263A8A002F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260837FD235AF241CB9C09 /* ContentView.swift */; };
+		0A11C702D8490D604BAE5C26 /* ConticiniumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0CC3FFD162B190C9E8D861 /* ConticiniumTests.swift */; };
+		1018A8630109CEAA8B47621C /* FlutterMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3663ADE0229B6B8FC687B0 /* FlutterMark.swift */; };
+		10B577D355BDC973B6512198 /* Hush.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E699676C605EA8817CB892 /* Hush.swift */; };
+		26F2FCD5F04DEA3F46E420EC /* FolioChartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A50CC462540FAB2E9F36AE /* FolioChartStore.swift */; };
+		3E37B0728D600905412F8563 /* FolioFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF5179E408FD1D032C0EBAE /* FolioFold.swift */; };
+		4484A3EB6A40EAEE07CF1E44 /* RestMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B030283B04A22F23693FBA /* RestMark.swift */; };
+		471541C02C3636138D0E9353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BA70A5F584F5F04A50AE83 /* Assets.xcassets */; };
+		50906F63D44CA41CC1B0D36C /* ConticiniumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8CF53040FB42841EBA6F4 /* ConticiniumApp.swift */; };
+		5099D7FC3622B5016141CC5F /* RitualSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14B4F3D61E4D3F6EBF1EB9F /* RitualSession.swift */; };
+		52A89448D6D63B30CA1E361E /* RitualScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83B192BAD62476FD116F40 /* RitualScreen.swift */; };
+		5BFE34FB57FB654CEAB07D87 /* HistorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F7FA6226F424A4ED18790 /* HistorySheet.swift */; };
+		6A8098A7234949BA26B27A19 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB70C22A7D6FFC4FC28F2B /* Bank.swift */; };
+		851A64A62AA77F3C70139E28 /* RitualDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674368A325E0B994090E9573 /* RitualDesk.swift */; };
+		99690F4A767942B1E2084036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247F399E8D95F9B06E8EAB4 /* AppDelegate.swift */; };
+		9DD6039CBD8A4234889FFF70 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAC8DC08855A014506A327 /* OnboardingFlow.swift */; };
+		A0FB8D1CAFC61B6FB7174462 /* FolioPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF310BD79FD6F3B711D2525 /* FolioPages.swift */; };
+		A149A5030BD9BF9C101D2169 /* FolioChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59196AB467A663CAFC92C0A9 /* FolioChrome.swift */; };
+		B618ADC2ABA637ADA7997CC3 /* LeafMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B742BA01F7E0DB029E4511 /* LeafMark.swift */; };
+		B6C1F368AEB01086063B4CC4 /* AmbientTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ECBF6981F9E08F836D55DB /* AmbientTone.swift */; };
+		B8857E770A8836B465259376 /* Folio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B084EA7F6A7314087AFE4B4 /* Folio.swift */; };
+		D0DECB9ACDF29AD113B094B0 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AED98BBF5FEEB0EDC9872A /* DesignTokens.swift */; };
+		DBF02A3F74D24DEE6B518B68 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5B9727DE9231DEC555774 /* APIConfig.swift */; };
+		EAC4C6456335A6F3A3F5F8E5 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632B0E21167304550659931 /* ReviewLaunch.swift */; };
+		F033BBEFEA9276A44D612CC1 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134606FE9AAC2BC0E2ADD93 /* SettingsSheet.swift */; };
+		F4E90168A386CDD9C3A61CEC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B0CE138684D09BC0344DF7F1 /* Alamofire */; };
+		FA626877FC03FB42558F5A1B /* Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EE44759F968A03B6C289EC /* Leaf.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E267A3E6F760194F6BC71FF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD6A5D1D77284FD984991266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F029EAE01A578E8BB62AF47B;
+			remoteInfo = Conticinium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3663ADE0229B6B8FC687B0 /* FlutterMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterMark.swift; sourceTree = "<group>"; };
+		2632B0E21167304550659931 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		2E1F7FA6226F424A4ED18790 /* HistorySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySheet.swift; sourceTree = "<group>"; };
+		3134606FE9AAC2BC0E2ADD93 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		33EE44759F968A03B6C289EC /* Leaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaf.swift; sourceTree = "<group>"; };
+		38BA70A5F584F5F04A50AE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0CC3FFD162B190C9E8D861 /* ConticiniumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConticiniumTests.swift; sourceTree = "<group>"; };
+		3AF5179E408FD1D032C0EBAE /* FolioFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioFold.swift; sourceTree = "<group>"; };
+		3E260837FD235AF241CB9C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40AB70C22A7D6FFC4FC28F2B /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		47B030283B04A22F23693FBA /* RestMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestMark.swift; sourceTree = "<group>"; };
+		49C5B9727DE9231DEC555774 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		4EF310BD79FD6F3B711D2525 /* FolioPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioPages.swift; sourceTree = "<group>"; };
+		59196AB467A663CAFC92C0A9 /* FolioChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioChrome.swift; sourceTree = "<group>"; };
+		5C83B192BAD62476FD116F40 /* RitualScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualScreen.swift; sourceTree = "<group>"; };
+		674368A325E0B994090E9573 /* RitualDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualDesk.swift; sourceTree = "<group>"; };
+		694EAEC9828B154AAAF4564A /* ConticiniumTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ConticiniumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B084EA7F6A7314087AFE4B4 /* Folio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folio.swift; sourceTree = "<group>"; };
+		84AED98BBF5FEEB0EDC9872A /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		8FEBCCAF9730FB53F71D0835 /* Conticinium.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Conticinium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9247F399E8D95F9B06E8EAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA8CF53040FB42841EBA6F4 /* ConticiniumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConticiniumApp.swift; sourceTree = "<group>"; };
+		A7B60DDC2388A069F548D994 /* InkWashScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkWashScene.swift; sourceTree = "<group>"; };
+		B2A50CC462540FAB2E9F36AE /* FolioChartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioChartStore.swift; sourceTree = "<group>"; };
+		C6ECBF6981F9E08F836D55DB /* AmbientTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientTone.swift; sourceTree = "<group>"; };
+		D9E699676C605EA8817CB892 /* Hush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hush.swift; sourceTree = "<group>"; };
+		DCDAC8DC08855A014506A327 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		E4B742BA01F7E0DB029E4511 /* LeafMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafMark.swift; sourceTree = "<group>"; };
+		F14B4F3D61E4D3F6EBF1EB9F /* RitualSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41BB3C912B1E071635F2BAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E90168A386CDD9C3A61CEC /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9EB367784942E98A328805 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3134606FE9AAC2BC0E2ADD93 /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		249A8F4699B1F8EC74946E52 /* Folio */ = {
+			isa = PBXGroup;
+			children = (
+				6B084EA7F6A7314087AFE4B4 /* Folio.swift */,
+				3AF5179E408FD1D032C0EBAE /* FolioFold.swift */,
+				F14B4F3D61E4D3F6EBF1EB9F /* RitualSession.swift */,
+			);
+			path = Folio;
+			sourceTree = "<group>";
+		};
+		2FBCEDBB6C97F3A6922C1BD5 /* Leaf */ = {
+			isa = PBXGroup;
+			children = (
+				33EE44759F968A03B6C289EC /* Leaf.swift */,
+			);
+			path = Leaf;
+			sourceTree = "<group>";
+		};
+		33EDC7751E25993DCE5E01C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEBCCAF9730FB53F71D0835 /* Conticinium.app */,
+				694EAEC9828B154AAAF4564A /* ConticiniumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4626A036FCF54253582A8162 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				59196AB467A663CAFC92C0A9 /* FolioChrome.swift */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		4C567B42E6ADF3775D8C2276 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				40AB70C22A7D6FFC4FC28F2B /* Bank.swift */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		63786A52BDBD7F41B3DF87C2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50CC462540FAB2E9F36AE /* FolioChartStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		67F48DF3F4B733F3C8176F41 = {
+			isa = PBXGroup;
+			children = (
+				C8575C07A90DBAAEA4F3C4FD /* Conticinium */,
+				B364683AAC6693B62DCBBD58 /* ConticiniumTests */,
+				33EDC7751E25993DCE5E01C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E775FCDB34B5FE51BDA617 /* Hush */ = {
+			isa = PBXGroup;
+			children = (
+				D9E699676C605EA8817CB892 /* Hush.swift */,
+			);
+			path = Hush;
+			sourceTree = "<group>";
+		};
+		7E36953BA2C01996683EB8F7 /* FlutterMark */ = {
+			isa = PBXGroup;
+			children = (
+				0C3663ADE0229B6B8FC687B0 /* FlutterMark.swift */,
+			);
+			path = FlutterMark;
+			sourceTree = "<group>";
+		};
+		7E5EBA7D5EED9B7D79A00248 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAC8DC08855A014506A327 /* OnboardingFlow.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		AF4B1AA8D74961C27D2D13E9 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F7FA6226F424A4ED18790 /* HistorySheet.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		B364683AAC6693B62DCBBD58 /* ConticiniumTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A0CC3FFD162B190C9E8D861 /* ConticiniumTests.swift */,
+			);
+			path = ConticiniumTests;
+			sourceTree = "<group>";
+		};
+		C3CAE9DC907F1727B53EBF79 /* LeafMark */ = {
+			isa = PBXGroup;
+			children = (
+				E4B742BA01F7E0DB029E4511 /* LeafMark.swift */,
+			);
+			path = LeafMark;
+			sourceTree = "<group>";
+		};
+		C8575C07A90DBAAEA4F3C4FD /* Conticinium */ = {
+			isa = PBXGroup;
+			children = (
+				49C5B9727DE9231DEC555774 /* APIConfig.swift */,
+				9247F399E8D95F9B06E8EAB4 /* AppDelegate.swift */,
+				38BA70A5F584F5F04A50AE83 /* Assets.xcassets */,
+				3E260837FD235AF241CB9C09 /* ContentView.swift */,
+				9BA8CF53040FB42841EBA6F4 /* ConticiniumApp.swift */,
+				84AED98BBF5FEEB0EDC9872A /* DesignTokens.swift */,
+				2632B0E21167304550659931 /* ReviewLaunch.swift */,
+				4C567B42E6ADF3775D8C2276 /* Bank */,
+				4626A036FCF54253582A8162 /* Chrome */,
+				7E36953BA2C01996683EB8F7 /* FlutterMark */,
+				249A8F4699B1F8EC74946E52 /* Folio */,
+				AF4B1AA8D74961C27D2D13E9 /* History */,
+				73E775FCDB34B5FE51BDA617 /* Hush */,
+				2FBCEDBB6C97F3A6922C1BD5 /* Leaf */,
+				C3CAE9DC907F1727B53EBF79 /* LeafMark */,
+				7E5EBA7D5EED9B7D79A00248 /* Onboarding */,
+				E9EA605E6A97B771D7E1A131 /* RestMark */,
+				CD2753D24706FC6F48A94E51 /* Ritual */,
+				0D9EB367784942E98A328805 /* Settings */,
+				63786A52BDBD7F41B3DF87C2 /* Store */,
+			);
+			path = Conticinium;
+			sourceTree = "<group>";
+		};
+		CD2753D24706FC6F48A94E51 /* Ritual */ = {
+			isa = PBXGroup;
+			children = (
+				C6ECBF6981F9E08F836D55DB /* AmbientTone.swift */,
+				4EF310BD79FD6F3B711D2525 /* FolioPages.swift */,
+				A7B60DDC2388A069F548D994 /* InkWashScene.swift */,
+				674368A325E0B994090E9573 /* RitualDesk.swift */,
+				5C83B192BAD62476FD116F40 /* RitualScreen.swift */,
+			);
+			path = Ritual;
+			sourceTree = "<group>";
+		};
+		E9EA605E6A97B771D7E1A131 /* RestMark */ = {
+			isa = PBXGroup;
+			children = (
+				47B030283B04A22F23693FBA /* RestMark.swift */,
+			);
+			path = RestMark;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C69BFBF1009AEEE9B4D489A8 /* ConticiniumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5019C5156E54BAA3AA9973B3 /* Build configuration list for PBXNativeTarget "ConticiniumTests" */;
+			buildPhases = (
+				883FCBF74A58CC8E9072CD6C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8248BFE1AC1DC837CC45E8C /* PBXTargetDependency */,
+			);
+			name = ConticiniumTests;
+			packageProductDependencies = (
+			);
+			productName = ConticiniumTests;
+			productReference = 694EAEC9828B154AAAF4564A /* ConticiniumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F029EAE01A578E8BB62AF47B /* Conticinium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE9375613BC97C1F04E749B /* Build configuration list for PBXNativeTarget "Conticinium" */;
+			buildPhases = (
+				CF0B3925373CE6C1CD80E3D9 /* Sources */,
+				73119E1673FBA3C509E22AF2 /* Resources */,
+				41BB3C912B1E071635F2BAD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conticinium;
+			packageProductDependencies = (
+				B0CE138684D09BC0344DF7F1 /* Alamofire */,
+			);
+			productName = Conticinium;
+			productReference = 8FEBCCAF9730FB53F71D0835 /* Conticinium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD6A5D1D77284FD984991266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C69BFBF1009AEEE9B4D489A8 = {
+						ProvisioningStyle = Automatic;
+					};
+					F029EAE01A578E8BB62AF47B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5E56DD4FEFBC8428E6091A8 /* Build configuration list for PBXProject "Conticinium" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 67F48DF3F4B733F3C8176F41;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6D17AF6BD0C3C4786474A81D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 33EDC7751E25993DCE5E01C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F029EAE01A578E8BB62AF47B /* Conticinium */,
+				C69BFBF1009AEEE9B4D489A8 /* ConticiniumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73119E1673FBA3C509E22AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471541C02C3636138D0E9353 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883FCBF74A58CC8E9072CD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A11C702D8490D604BAE5C26 /* ConticiniumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0B3925373CE6C1CD80E3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF02A3F74D24DEE6B518B68 /* APIConfig.swift in Sources */,
+				B6C1F368AEB01086063B4CC4 /* AmbientTone.swift in Sources */,
+				99690F4A767942B1E2084036 /* AppDelegate.swift in Sources */,
+				6A8098A7234949BA26B27A19 /* Bank.swift in Sources */,
+				08195471014FB6263A8A002F /* ContentView.swift in Sources */,
+				50906F63D44CA41CC1B0D36C /* ConticiniumApp.swift in Sources */,
+				D0DECB9ACDF29AD113B094B0 /* DesignTokens.swift in Sources */,
+				1018A8630109CEAA8B47621C /* FlutterMark.swift in Sources */,
+				B8857E770A8836B465259376 /* Folio.swift in Sources */,
+				26F2FCD5F04DEA3F46E420EC /* FolioChartStore.swift in Sources */,
+				A149A5030BD9BF9C101D2169 /* FolioChrome.swift in Sources */,
+				3E37B0728D600905412F8563 /* FolioFold.swift in Sources */,
+				A0FB8D1CAFC61B6FB7174462 /* FolioPages.swift in Sources */,
+				5BFE34FB57FB654CEAB07D87 /* HistorySheet.swift in Sources */,
+				10B577D355BDC973B6512198 /* Hush.swift in Sources */,
+				03C435EC657C56448224D0EC /* InkWashScene.swift in Sources */,
+				FA626877FC03FB42558F5A1B /* Leaf.swift in Sources */,
+				B618ADC2ABA637ADA7997CC3 /* LeafMark.swift in Sources */,
+				9DD6039CBD8A4234889FFF70 /* OnboardingFlow.swift in Sources */,
+				4484A3EB6A40EAEE07CF1E44 /* RestMark.swift in Sources */,
+				EAC4C6456335A6F3A3F5F8E5 /* ReviewLaunch.swift in Sources */,
+				851A64A62AA77F3C70139E28 /* RitualDesk.swift in Sources */,
+				52A89448D6D63B30CA1E361E /* RitualScreen.swift in Sources */,
+				5099D7FC3622B5016141CC5F /* RitualSession.swift in Sources */,
+				F033BBEFEA9276A44D612CC1 /* SettingsSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8248BFE1AC1DC837CC45E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F029EAE01A578E8BB62AF47B /* Conticinium */;
+			targetProxy = E267A3E6F760194F6BC71FF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075056C78B32AD648C42154B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		27E1188C6BB76BEC9C3587D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Conticinium;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conticinium.folio;
+				PRODUCT_NAME = Conticinium;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2815FCDED1039E7261F057FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conticinium.folio.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conticinium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conticinium";
+			};
+			name = Debug;
+		};
+		C77C55F669DCA025B25CA1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conticinium.folio.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conticinium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conticinium";
+			};
+			name = Release;
+		};
+		DE397731BB8F3F743B191966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Conticinium;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conticinium.folio;
+				PRODUCT_NAME = Conticinium;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8ED031B43B7DB9E80FC52B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE9375613BC97C1F04E749B /* Build configuration list for PBXNativeTarget "Conticinium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE397731BB8F3F743B191966 /* Debug */,
+				27E1188C6BB76BEC9C3587D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5019C5156E54BAA3AA9973B3 /* Build configuration list for PBXNativeTarget "ConticiniumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2815FCDED1039E7261F057FF /* Debug */,
+				C77C55F669DCA025B25CA1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5E56DD4FEFBC8428E6091A8 /* Build configuration list for PBXProject "Conticinium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075056C78B32AD648C42154B /* Debug */,
+				E8ED031B43B7DB9E80FC52B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D17AF6BD0C3C4786474A81D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0CE138684D09BC0344DF7F1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D17AF6BD0C3C4786474A81D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD6A5D1D77284FD984991266 /* Project object */;
+}

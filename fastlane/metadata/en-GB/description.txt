@@ -1,0 +1,18 @@
+Conticinium is a short evening rite on one canvas. A person keeps four pages in order — Reflect, Breathe, Ambient, then Rest — and Rest files a sealed night on this device. It is for people who want an ordered wind-down, not a sleep log and not a free-form breath-hold.
+
+• Four pages in order: Reflect, Breathe, Ambient, Rest
+• Tonight is the home screen. On a new installation it opens as the empty night: Build tonight's rite
+• Begin with Reflect or Keep this page starts a timed beat. The cue word cycles Inhale, Hold, Exhale, Settle
+• End early keeps the page without waiting for the full length
+• Default lengths are 90 seconds for Reflect, 120 seconds for Breathe and 90 seconds for Ambient. Rest has no seconds line
+• Turn forward or a forward swipe moves only after the current page is kept. An early forward swipe or turn stays on the page, files a flutter mark and shows This page is not kept yet. It stays here
+• Each page names all four pages and their stage: Waiting, Now, Kept or Sealed
+• Ambient plays a quiet tone while this page is current and the night is not sealed. It stops if you leave the page, leave the app or seal the night
+• Rest seals tonight when Reflect, Breathe and Ambient are each kept
+• Sealed nights shows rest marks and flutter marks by day, not hours slept
+• Streak on Tonight: No sealed night yet, 1 sealed night or N sealed nights
+• Last sealed night on the current page when at least one night is sealed
+• Settings: Page lengths from 30 to 240 seconds in steps of 10, Feel with Haptics, This device with Show the introduction, Reset all nights and Contact
+• Nights, flutter marks, page lengths and the haptics setting stay on this device
+
+Portrait only, light appearance, full screen. iPhone and iPad. Copy is English only.
