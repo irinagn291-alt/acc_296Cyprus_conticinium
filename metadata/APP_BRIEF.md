@@ -1,4 +1,4 @@
-<!-- gf-brief source=aa4ad234321565f3232c59b06d54353737dd7b2290b0fcc65e67f32f20585743 written=2026-09-29T19:14:01+03:00 -->
+<!-- gf-brief source=aa4ad234321565f3232c59b06d54353737dd7b2290b0fcc65e67f32f20585743 written=2026-09-29T19:17:30+03:00 -->
 # Conticinium
 
 ## What it is
