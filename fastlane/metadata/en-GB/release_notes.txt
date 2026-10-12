@@ -1,11 +1,3 @@
-This 1.0 release introduces Conticinium, a short evening rite on one canvas.
-
-Keep four pages in order — Reflect, Breathe, Ambient, then Rest. Rest files a sealed night on this device.
-
-• Tonight, with Build tonight's rite on a new installation
-• A timed beat on Keep this page and Begin with Reflect, with Inhale, Hold, Exhale, Settle and End early
-• Turn forward only after a page is kept, and a flutter mark if you turn too soon
-• Rest to seal tonight after Reflect, Breathe and Ambient are each kept
-• Sealed nights, the streak on Tonight, Last sealed night, Page lengths, Haptics, a quiet tone on Ambient, Show the introduction, Reset all nights and Contact
-
-Nights stay on this device.
+Version 1.1 keeps Conticinium polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app

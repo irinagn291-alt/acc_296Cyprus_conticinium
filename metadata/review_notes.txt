@@ -1,17 +1,24 @@
-The app requests no permissions. No permission prompt appears, and there is no usage-description string.
+Thank you for the review. The build under review was retested on a clean device. No crash, dead end, empty screen or non-functioning feature could be reproduced.
 
-There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+Three behaviours are deliberate and can look incomplete on a short pass.
 
-Conticinium is a short evening rite on one canvas. A person keeps four pages in order — Reflect, Breathe, Ambient, then Rest — and Rest files a sealed night on this device. It is for people who want an ordered wind-down, not a sleep log and not a free-form breath hold.
+1. The introduction cannot be dismissed by dragging. It is three full-screen pages, not a stuck sheet. End it with "Continue" on "Rest seals the night", or with "Skip" on any page. "Skip" also puts page lengths back to 90, 120, and 90 seconds and turns "Haptics" on. "Next" then "Continue" leaves those settings as they are.
 
-No credentials or demo account are needed. A cold launch shows a blank system launch screen with no title, then the introduction if it has not been finished. The introduction is three full-screen pages and cannot be dragged away. Skip is on every page. Tap Next on An evening in order (Four pages, one after another. Reflect, breathe, ambient, then rest. Page 1 of 3), then Next on Keep, then turn (Keep the page you are on. Turn moves only after that mark is there. Page 2 of 3), then Continue on Rest seals the night (When the three pages hold a mark, rest files the night on this device. Page 3 of 3). Skip also ends the introduction on any page and puts page lengths back to 90, 120, and 90 seconds with Haptics on. After the introduction, Tonight is the home screen. On a new install it opens as Build tonight's rite with Four pages, in order. You can skip a page if you must. Tap Begin with Reflect. During the beat the cue word cycles Inhale, Hold, Exhale, Settle. End early keeps the page without waiting out the length. After the first keep, the four pages replace the empty night. On Reflect, Breathe, and Ambient, tap Keep this page or End early, then Turn forward. A forward swipe or Turn forward moves only after the current page is kept. Rest stays dimmed until Reflect, Breathe, and Ambient each show Kept. Tap Rest to seal tonight. After seal, the notice Tonight is sealed. appears, and Open history opens Sealed nights. The closed-book control (VoiceOver: History) opens Sealed nights. The gear control (VoiceOver: Settings) opens Settings, with Page lengths, Feel with Haptics, and This device with Show the introduction, Reset all nights, and Contact. If the introduction is already finished and Breathe is the current page, tap Keep this page, then Turn forward through Ambient, then Rest.
+2. "Begin with Reflect" and "Keep this page" start a timed beat. The primary control stays dimmed while the cue cycles "Inhale", "Hold", "Exhale", "Settle". That wait is the rite, not a hang. "End early" still keeps the page. After the keep, the page does not auto-advance; tap "Turn forward".
 
-Nights, flutter marks, page lengths, and the haptics setting stay on this device. Contact under This device in Settings opens the support page.
+3. "Sealed nights" opens empty until the first "Rest", showing "No sealed night yet" and "Keep the three pages, then rest. The mark will wait here." An unfinished night never appears there. "Back to tonight" dismisses the sheet.
 
-Behaviour does not differ by region. Copy is English only. Dates and numbers follow the device locale.
+Full review path. No account, no login:
+- Cold launch: blank system launch screen with no title, then the introduction if it is unfinished.
+- An evening in order. Four pages, one after another. Reflect, breathe, ambient, then rest. Page 1 of 3. Next.
+- Keep, then turn. Keep the page you are on. Turn moves only after that mark is there. Page 2 of 3. Next.
+- Rest seals the night. When the three pages hold a mark, rest files the night on this device. Page 3 of 3. Continue. Skip on any page also ends the introduction.
+- Tonight is the home screen. There is no tab bar. A new install opens as Build tonight's rite with Four pages, in order. You can skip a page if you must.
+- Begin with Reflect, then End early. The four pages replace the empty night.
+- On Reflect, Breathe, and Ambient: Keep this page or End early, then Turn forward. A too-soon Turn forward or forward swipe stays put and shows This page is not kept yet. It stays here. Rest stays dimmed until those three show Kept. Tap Rest to seal. After seal, Tonight is sealed. appears, the pager no longer turns, and Open history opens Sealed nights.
+- Closed-book control (VoiceOver: History) opens Sealed nights. Rows show a date and a line such as 1 rest mark, 0 flutter marks, not hours slept. Close or a downward drag returns.
+- Gear control (VoiceOver: Settings) opens Settings: Page lengths; Feel with Haptics; This device with Show the introduction, Reset all nights, and Contact. Reset all nights asks Reset all nights? with Sealed nights and flutter marks on this device will be removed. Confirm with Reset all nights or Cancel. After reset, Tonight shows Every sealed night is gone from this device.
 
-No licence or regulated-industry paperwork applies. The app does not show medical, diagnostic, or product-health information.
+A new iPhone or iPad install seeds nothing. Tonight starts as Build tonight's rite and Sealed nights is empty. The iOS Simulator can open with the introduction already finished, four sealed nights in the list, and Breathe as the current page. Kept pages resume if you leave and return on the same calendar day. A running beat does not resume after a full quit; start Keep this page again. After Rest, the night stays sealed until the next calendar day.
 
-The app is a personal log only and gives no recommendations. Sealed nights counts rest marks and flutter marks, not hours slept. The Breathe page and the empty-night beat show timed Inhale, Hold, Exhale, and Settle words as part of the rite. There are no citations.
-
-The app does not scan barcodes or QR codes.
+Technical facts: no accounts, no in-app purchases, no ads, no analytics, and no permissions requested. No permission prompt appears, and there is no usage string. Login, user-generated content, an account-deletion flow, and an App Tracking Transparency prompt are absent. Nights, flutter marks, page lengths, and the haptics setting stay on this device. The app is an evening rite, not a sleep log. It shows no medical, diagnostic, or product-health information, gives no recommendations, and does not scan barcodes or QR codes. Behaviour is the same in every region. Copy is English only. Dates and numbers follow the device locale. Portrait only, iPhone and iPad, minimum iOS 17.0. Not for Mac or Apple Vision.

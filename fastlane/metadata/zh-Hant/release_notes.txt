@@ -1,11 +1,3 @@
-此 1.0 版本推出 Conticinium，一張畫布上的簡短晚間儀式。
-
-按順序留下四頁——靜思、呼吸、氛圍，然後休息。休息會在本機記下封存的一夜。
-
-• 今夜，新安裝時為安排今夜的儀式
-• 留下此頁和從靜思開始時的計時節拍，含吸氣、屏息、呼氣、安定，以及提前結束
-• 僅在頁面留下後才能向前翻頁，過早翻頁會記下輕顫標記
-• 在靜思、呼吸和氛圍均已留下後，用休息封存今夜
-• 封存的夜晚、今夜上的連續封存、上次封存的夜晚、頁面時長、觸感、氛圍頁的輕柔音調、顯示介紹、重置所有夜晚，以及聯絡
-
-夜晚留在本機。
+Version 1.1 keeps Conticinium polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app
